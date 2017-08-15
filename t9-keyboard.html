@@ -1,0 +1,44 @@
+<html>
+<head>
+  <meta charset="utf-8" />
+  
+  <title>Numpad</title>
+ 
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <script type="text/javascript" src="main.js"></script>
+
+</head>
+<body>
+  <div id="cont" >
+  
+    <input  readonly="false" type="text" id="field" placeholder="your input" />
+    <ul class="numpad">
+      <button id="1.,!"  onmousedown="button_click_down()" onclick="set_digit(this.id)" onmouseup="clearInterval(set_interval)">1<br>.,!</button>
+
+      <button id="2abc" onmousedown="button_click_down()" onclick="set_digit(this.id)" onmouseup="clearInterval(set_interval)">2<br>abc</button>
+
+      <button id="3def" onmousedown="button_click_down()" onclick="set_digit(this.id)" onmouseup="clearInterval(set_interval)">3<br>def</button>
+
+      <button id="4ghi" onmousedown="button_click_down()" onclick="set_digit(this.id)" onmouseup="clearInterval(set_interval)">4<br>ghi</button>
+
+      <button id="5jkl" onmousedown="button_click_down() " onclick="set_digit(this.id)" onmouseup="clearInterval(set_interval)">5<br>jkl</button>
+
+      <button id="6mno" onmousedown="button_click_down()" onclick="set_digit(this.id)" onmouseup="clearInterval(set_interval)">6<br>mno</button>
+      
+      <button id="7pqrs" onmousedown="button_click_down()" onclick="set_digit(this.id)" onmouseup="clearInterval(set_interval)">7<br>pqrs</button>
+
+      <button id="8tuv" onmousedown="button_click_down()" onclick="set_digit(this.id)" onmouseup="clearInterval(set_interval)">8<br>tuv</button>
+
+      <button id="9wxyz" onmousedown="button_click_down()" onclick="set_digit(this.id)" onmouseup="clearInterval(set_interval)">9<br>wxyz</button>
+
+      
+      <button id="**" onmousedown="button_click_down()" onclick="set_digit(this.id)" onmouseup="clearInterval(set_interval)">*<br> </button>
+      <button id="00" onmousedown="button_click_down()" onclick="set_digit(this.id)" onmouseup="clearInterval(set_interval)">0<br>  </button>
+      <button id="##" onmousedown="button_click_down()" onclick="set_digit(this.id)" onmouseup="clearInterval(set_interval)">#<br></button>
+      <button id="10bb"  onclick="back_space()">  <--- </button>
+    </ul>
+  </div>
+</body>
+</html>
